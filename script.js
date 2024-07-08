@@ -29,4 +29,9 @@ function dragElement(terrariumElement) {
         document.onpointermove = elementDrag;
         document.onpointerup = stopDragElement;
     }
+
+    function stopDragElement() {
+        document.onpointerup = null;
+        document.onpointermove = null;
+    }
 }
