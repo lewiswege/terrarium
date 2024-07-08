@@ -1,2 +1,1 @@
-# terarium
 # Terrarium
