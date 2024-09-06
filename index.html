@@ -3,71 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <title>Welcome</title>
+    <title>Lewis Wege</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="github.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="images/github.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Simple Terrarium</h1>
-    <h3 style="text-align: center;">Click on a plant and drag it to add it to the terrarium</h3>
-    <div id="page">
-        <div id="left-container" class="container">
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant1" src="./images/plant1.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant2" src="./images/plant2.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant3" src="./images/plant3.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant4" src="./images/plant4.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant5" src="./images/plant5.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant6" src="./images/plant6.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant7" src="./images/plant7.png" />
-            </div>
+    <section class="nav_bar">
+        <ul>
+            <li><a href="#feature">Feature</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#intro">Intro</a></li>
+        </ul>
+    </section>
+
+    <section class="main_section" id="intro">
+        <div>
+            <h2 style="text-align: center;">Simpe Terrarium</h2>
+            <h3>Intro section</h3>
+            
+            <p class="desc_p">
+                This project is a simple terrarium built in HTML, CSS and JavaScript. involving DOM Manipulation, a key aspect in web development. The terrarium container is actually div elements I modeled into different shapes and styled them with different color shades to give it the container its final look.
+    
+                I created JavaScript function that makes the iamge elements dragable. The functionupdates the image postion as the mouse moves it around the screen, with the help of some basic JS event handlers.
+            </p>
+            <a href="main.html" target="_self" style="display: block;">
+                <button class="profile-button">Check it out</button>
+            </a>
+            <img src="images/Capture.PNG" alt="project_image">
         </div>
-        <div id="right-container" class="container">
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant8" src="./images/plant8.png" />
+    </section>
+    <section class="big_section" id="feature">
+            <div class="profile-card">
+                <h2>Feature Section</h2>
+                <p class="profile-description">
+                    The main feature of this project is dragging elements using a mouse or touch, with the help of JavaScript event handlers. I created JavaScript function that makes the iamge elements dragable by shifting the images' position. The function updates the image postion as the mouse moves it around the screen.
+                </p>
+                <a href="main.html" target="_self">
+                    <button class="profile-button">Check it out</button>
+                </a>
             </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant9" src="./images/plant9.png" />
+    </section>
+    <section class="big_section" id="about">
+            <div class="profile-card">
+                <h2>About Section</h2>
+                <p class="profile-description">
+                    My name is Lewis Wege. I am well-trained in the field of Software Engineering and have further developed my skills in Network Engineering. 
+                    My learning is always project-based, which has honed my skills and made me an expert in these fields. You can reach out to me through my socials above. Feel free to take a look at my personal website
+                </p>
+                <a href="https://github.com/lewiswege" target="_blank">
+                    <button class="profile-button">Github profile</button>
+                </a>
+                <div class="location">
+                    <span>📍 Nairobi, KE</span>
+                </div>
             </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant10" src="./images/plant10.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant11" src="./images/plant11.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant12" src="./images/plant12.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant13" src="./images/plant13.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant14" src="./images/plant14.png" />
-            </div>
-        </div>
-        <div id="terrarium">
-            <div class="jar-top"></div>
-            <div class="jar-walls">
-                <div class="jar-glossy-long"></div>
-                <div class="jar-glossy-short"></div>
-            </div>
-            <div class="dirt"></div>
-            <div class="jar-bottom"></div>
-        </div>
-    </div>
+    </section>
 </body>
-</html>
 </html>
