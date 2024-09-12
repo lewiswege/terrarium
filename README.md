@@ -9,3 +9,5 @@
   <li>Or access it directly through the following link  https://lewiswege.github.io/terrarium/main.html</li>
   <li>CLick and drag plants into the jar to fill the terrarium</li>
 </ul>
+
+<h3>Anyone is welcomed to offer contributions</h3>
